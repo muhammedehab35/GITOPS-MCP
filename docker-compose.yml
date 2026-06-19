@@ -1,0 +1,14 @@
+version: "3.9"
+
+services:
+  github-mcp-server:
+    build: .
+    container_name: github-mcp-server
+    restart: unless-stopped
+    environment:
+      - GITHUB_TOKEN=${GITHUB_TOKEN}
+      - ANTHROPIC_API_KEY=${ANTHROPIC_API_KEY}
+      - POLLING_INTERVAL_MS=${POLLING_INTERVAL_MS:-30000}
+      - LOG_LEVEL=${LOG_LEVEL:-info}
+    stdin_open: true
+    tty: false
