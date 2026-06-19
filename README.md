@@ -78,7 +78,7 @@ The agent will automatically:
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/YOUR_USERNAME/github-actions-mcp.git
+git clone https://github.com/muhammedehab35/GITOPS-MCP/tree/main
 cd github-actions-mcp
 
 # 2. Install dependencies
