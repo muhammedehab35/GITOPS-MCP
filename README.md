@@ -302,6 +302,5 @@ MIT — see [LICENSE](LICENSE) for details.
 
 <p align="center">
   Built with <a href="https://github.com/punkpeye/fastmcp">FastMCP</a> · 
-  Powered by <a href="https://www.anthropic.com">Claude</a> · 
-  GitHub API via <a href="https://github.com/octokit/rest.js">Octokit</a>
+  Powered by muhammed ehab for github community
 </p>
